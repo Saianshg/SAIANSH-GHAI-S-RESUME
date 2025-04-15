@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #004aad;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ffdf57;
+}
+
+/* Header */
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: linear-gradient(135deg, #004aad, #00c6ff);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+main {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  margin: 25px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #004aad;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-tags span {
+  background: #004aad;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+}
+
+/* Contact */
+.contact-card .social {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1rem;
+}
+
+.contact-card .social a {
+  text-decoration: none;
+  color: #004aad;
+  transition: color 0.3s;
+}
+
+.contact-card .social a:hover {
+  color: #007aff;
+}
+
+.contact-card .social a i {
+  margin-right: 10px;
+}
+
+/* Footer */
+footer {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  border-top: 2px solid #00397b;
+}
